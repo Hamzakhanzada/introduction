@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .container {
+    padding: 2px;
+  }
+  
+  .about, .projects, .contact {
+    background-color: #f4f4f4;
+    padding: 2px 0;
+  }
+  
+  .project {
+    margin: 1em 0;
+    padding: 1px;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
